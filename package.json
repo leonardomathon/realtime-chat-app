@@ -1,0 +1,20 @@
+{
+  "name": "realtime-chat-app",
+  "version": "1.0.0",
+  "description": "A realtime chat application build with jaExpress.js and Socket.io",
+  "main": "\u001b[B\u001b[Aserver.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Leonardo Mathon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
